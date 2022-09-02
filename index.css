@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  color: #ebebeb;
+  background-color: #1f1f1f;
+  /* background-color: #ebebeb; */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  /* font: 700 18px sans-serif */
+}
+
+a {
+  color: #ebebeb;
+  background: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline orange;
+  background: #79ca34ab;
+}
+
+a:active {
+  color: orange;
+}
+
+a:visited {
+  color: #ffef9d;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 14px rgba(121, 202, 52, 0.8);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 20px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card {
+  /* border: 2px solid #ed7138; */
+  border-radius: 3px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  color: #1f1f1f;
+  background: #79ca34ab;
+  border: none;
+  padding: 10px 10px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  background: #1f1f1f;
+  color: orange;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list ol {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #bebebe;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-family: inherit;
+  padding: 15px 0px 10px;
+  outline-style: none;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+  color: #1f1f1f;
+}
+
+.bg-green {
+  background: #79ca34ab;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: calc(50%-20px);
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}

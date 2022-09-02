@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          src="./avatar.jpg"
+          alt="Павел Филимонов"
+          class="avatar"
+        />
+        <div class="info-text">
+          <h1>Павел Филимонов</h1>
+          <p>
+            Занимаюсь программированием, изучаю <strong>JS/REACT</strong>,
+            осваиваю <strong>HTML</strong> и <strong>CSS</strong>.
+          </p>
+          <br />
+          <p>
+            Играю <em>блюз</em>, слушаю <em>джаз</em>, люблю
+            <em>пешие прогулки</em>.
+          </p>
+          <h4>Контакты и полезные ссылки:</h4>
+          <a href="https://t.me/philimonovp" target="_blank">Telegram</a>
+          <br />
+          <a href="https://vk.com/p.philimonov" target="_blank">VK</a>
+          <br />
+          <a href="https://github.com/omega8015" target="_blank">github</a>
+        </div>
+      </div>
+      <div class="card bg-green">
+        <h2>Мои хобби:</h2>
+        <ol class="list">
+          <li>Игра на гитаре</li>
+          <li>Авторемонт</li>
+          <li>Аналоговая фотография</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Опыт работы:</h2>
+
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>ВГУ</td>
+              <td>Студент</td>
+              <td>2014-2021</td>
+            </tr>
+            <tr>
+              <td>Джазовая Провинция</td>
+              <td>Переводчик</td>
+              <td>2014-2020</td>
+            </tr>
+            <tr>
+              <td>KFC</td>
+              <td>Младший Сотрудник</td>
+              <td>2019-2019</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-yellow">
+        <form action="/" class="form">
+          <h2>Связаться со мной:</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+
+            <textarea
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Введите ваше сообщение..."
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить." />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
